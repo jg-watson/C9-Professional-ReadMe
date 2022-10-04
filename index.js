@@ -1,47 +1,76 @@
 //const used to acquire path to node_modules to use inquirer
-const inquirer = require('./node_modules/inquirer');
-const fs = require = require('fs');
+const inquirer = require('inquirer');
+const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 //inquirer used to generate the readme
-inquirer.prompt([
+const questions = [
     {
         type:'input',
-        message:'What is the name of your project?',
+        message:'What is the title of your project?',
         name:'title',
     },
     {
         type:'input',
-        message:'Is there a Description?',
-        name:'Description',
+        message:'Description?',
+        name:'description',
     },
     {
         type:'input',
-        message:'Is there a table of contents?',
-        name:'Usage',
+        message:'Contents',
+        name:'Table of Contents',
     },
     {
         type:'input',
-        message:'Were any licenses used?',
-        name:'License',
+        message:'Installation',
+        name:'installation',
     },
     {
         type:'input',
-        message:'Were there contributors to the project?',
-        name:'Contributing',
+        message:'Usage',
+        name:'usage',
+    },
+    {
+        type:'list',
+        message:'Licenses Used',
+        name:'license',
+        choices:['None']
     },
     {
         type:'input',
-        message:'Were tests run?',
-        name:'Tests',
+        message:'Contributing',
+        name:'contributing',
     },
     {
         type:'input',
-        message:'Would you like to leave Contact info?',
-        name:'Contact Info',
-    }
-])
-.then((response) =>
-response.confirm === response.password
-?console.log('Success!')
-: console.log('Answer not valid')
-);
+        message:'Tests',
+        name:'tests',
+    },
+    {
+        type:'input',
+        message:'GitHub Username:',
+        name:'github',
+    },
+    {
+        type:'input',
+        message:'Email Information:',
+        name:'email',
+    },
+]
+
+
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {
+    return fs.writeFileSync(fileName, data)
+}
+
+// TODO: Create a function to initialize app
+function init() {
+    inquirer.prompt(questions).then((answers)=>{
+        console.log(answers)
+        writeToFile('README.md', generateMarkdown(answers))
+    })
+}
+
+// Function call to initialize app
+init();

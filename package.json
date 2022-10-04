@@ -1,5 +1,23 @@
 {
+  "name": "c9-professional-readme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jg-watson/C9-Professional-ReadMe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jg-watson/C9-Professional-ReadMe/issues"
+  },
+  "homepage": "https://github.com/jg-watson/C9-Professional-ReadMe#readme",
   "dependencies": {
-    "inquirer": "^7.3.3"
+    "inquirer": "8.2.4"
   }
 }
