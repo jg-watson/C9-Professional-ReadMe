@@ -1,10 +1,9 @@
-# Professoinal ReadMe ![shields.io](https://img.shields.io/badge/license-APACHE 2.0-red.svg)
+# Professional Readme ![Github Shields](https://img.shields.io/badge/license-MIT-red.svg)
 
   ## Description
 
-ReadMe generator 
+generating a readme file using node modules 
 
-## Table of Contents
 
 ## Installation
 

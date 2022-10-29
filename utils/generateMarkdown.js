@@ -9,10 +9,9 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-// find link 
 function renderLicenseLink(license) {
   if (license !== 'None') {
-    return `![]()`
+    return `![https://choosealicense.com/](https://choosealicense.com/)`
   };
   return ''
 };
@@ -22,7 +21,7 @@ function renderLicenseLink(license) {
 // find link
 function renderLicenseSection(license) {
   if (license !== 'None') {
-    return `![]()`
+    return `![https://choosealicense.com/](https://choosealicense.com/)`
   };
   return ''
 };
@@ -35,7 +34,6 @@ function generateMarkdown(data) {
 
 ${data.description} 
 
-## Table of Contents
 
 ## Installation
 
