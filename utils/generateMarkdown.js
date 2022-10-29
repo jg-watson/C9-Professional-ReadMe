@@ -35,17 +35,28 @@ function generateMarkdown(data) {
 ${data.description} 
 
 
-## Installation
+### Installation
+${data.installation}
 
-## Usage
+### Usage
 
-## Credits
+${data.usage}
 
-## License
+### Credits
 
-## How to Contribute
+${data.credits}
 
-## Tests
+### License
+
+${data.license}
+
+### How to Contribute
+
+${data.contributing}
+
+### Tests
+
+${data.test}
 
 `;
 }
