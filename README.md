@@ -1,35 +1,50 @@
-# Readme Generator ![Github Shields](https://img.shields.io/badge/license-GPL 3.0-red.svg)
+# professional readme ![Github Shields](https://img.shields.io/badge/license-GPL 3.0-red.svg)
+
 
   ## Description
 
-A professional readme generated using node modules, made entirely by the command line 
+
+readme generated using node package modules 
 
 ### Table of Contents
+
 [Installation](#installation)
+
 [Usage](#usage)
-[Credits](#credit
+
 [License](#license)
 
+[Contributing](#contributing)
+
+[Test](#test)
+
+
 ### Installation
+
+
 npm i
 
 ### Usage
 
-Knowledge of javascript, node modules, and command line functions
+
+javascript and node 
 
 ### License
+
 
 GPL 3.0
 
 ### How to Contribute
 
-You can make a git pull request or reach me via email
+
+via email or git pull request
 
 jg-watson
 
 j.antoniogarcia1130@gmail.com
 
 ### Tests
+
 
 node index.js
 
