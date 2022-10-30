@@ -8,28 +8,18 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
     {
       type: 'input',
-      name: 'github',
-      message: 'What is your GitHub username?',
-    },
-    {
-      type: 'input',
-      name: 'email',
-      message: 'What is your email address?',
-    },
-    {
-      type: 'input',
       name: 'title',
       message: "What is your project's name?",
     },
     {
       type: 'input',
       name: 'description',
-      message: 'Please write a short description of your project',
+      message: 'Project description',
     },
     {
       type: 'list',
       name: 'license',
-      message: 'What kind of license should your project have?',
+      message: 'Were any licenses used for this project?',
       choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
     },
     {
@@ -42,17 +32,27 @@ const questions = [
       type: 'input',
       name: 'test',
       message: 'What command should be run to run tests?',
-      default: 'npm test',
+      default: 'node index.js',
     },
     {
       type: 'input',
       name: 'usage',
-      message: 'What does the user need to know about using the repo?',
+      message: 'What knowledge does a user need to run this code?',
     },
     {
       type: 'input',
       name: 'contributing',
-      message: 'What does the user need to know about contributing to the repo?',
+      message: 'How can you contribute to this project?',
+    },
+    {
+      type: 'input',
+      name: 'github',
+      message: 'What is your GitHub username?',
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'What is your email address?',
     },
   ];
 

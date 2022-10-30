@@ -11,17 +11,16 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== 'None') {
-    return `![https://choosealicense.com/](https://choosealicense.com/)`
+    return `![Github Shields](https://img.shields.io/badge/license-${license}-red.svg)`
   };
   return ''
 };
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-// find link
 function renderLicenseSection(license) {
   if (license !== 'None') {
-    return `![https://choosealicense.com/](https://choosealicense.com/)`
+    return `![Github Shields](https://img.shields.io/badge/license-${license}-red.svg)`
   };
   return ''
 };
@@ -34,6 +33,11 @@ function generateMarkdown(data) {
 
 ${data.description} 
 
+### Table of Contents
+[Installation](#installation)
+[Usage](#usage)
+[Credits](#credit
+[License](#license)
 
 ### Installation
 ${data.installation}
@@ -42,10 +46,6 @@ ${data.installation}
 
 ${data.usage}
 
-### Credits
-
-${data.credits}
-
 ### License
 
 ${data.license}
@@ -53,6 +53,10 @@ ${data.license}
 ### How to Contribute
 
 ${data.contributing}
+
+${data.github}
+
+${data.email}
 
 ### Tests
 

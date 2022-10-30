@@ -1,30 +1,35 @@
-# Professional Readme ![Github Shields](https://img.shields.io/badge/license-APACHE 2.0-red.svg)
+# Readme Generator ![Github Shields](https://img.shields.io/badge/license-GPL 3.0-red.svg)
 
   ## Description
 
-Create a readme file using node modules 
+A professional readme generated using node modules, made entirely by the command line 
 
+### Table of Contents
+[Installation](#installation)
+[Usage](#usage)
+[Credits](#credit
+[License](#license)
 
-## Installation
+### Installation
 npm i
 
-## Usage
+### Usage
 
-Knowledge of Javascript and Node 
+Knowledge of javascript, node modules, and command line functions
 
-## Credits
+### License
 
-undefined
+GPL 3.0
 
-## License
+### How to Contribute
 
-APACHE 2.0
+You can make a git pull request or reach me via email
 
-## How to Contribute
+jg-watson
 
-To contribute use provided email
+j.antoniogarcia1130@gmail.com
 
-## Tests
+### Tests
 
-npm test
+node index.js
 
