@@ -1,10 +1,10 @@
-# professional readme ![Github Shields](https://img.shields.io/badge/license-GPL 3.0-red.svg)
+# Professional Readme ![Github Shields](https://img.shields.io/badge/license-APACHE 2.0-red.svg)
 
 
   ## Description
 
 
-readme generated using node package modules 
+generate a readme using the command line 
 
 ### Table of Contents
 
@@ -19,31 +19,36 @@ readme generated using node package modules
 [Test](#test)
 
 
+
 ### Installation
 
 
 npm i
 
+
 ### Usage
 
 
-javascript and node 
+javascript and node modules
+
 
 ### License
 
 
-GPL 3.0
-
-### How to Contribute
+APACHE 2.0
 
 
-via email or git pull request
+### Contributing
+
+
+via a pull request or an email request
 
 jg-watson
 
-j.antoniogarcia1130@gmail.com
+j.antoniogarcia1130@gamil.com
 
-### Tests
+
+### Test
 
 
 node index.js

@@ -3,7 +3,10 @@
 function renderLicenseBadge(license) {
   if (license !== 'None') {
     return `![Github Shields](https://img.shields.io/badge/license-${license}-red.svg)`
-  };
+   } else {(license !== 'None'); {
+      return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)`
+    }};
+
   return ''
 };
 
@@ -40,19 +43,23 @@ ${data.description}
 [Contributing](#contributing)\n
 [Test](#test)\n
 
+
 ### Installation\n
 
 ${data.installation}
+
 
 ### Usage\n
 
 ${data.usage}
 
+
 ### License\n
 
 ${data.license}
 
-### How to Contribute\n
+
+### Contributing\n
 
 ${data.contributing}
 
@@ -60,7 +67,8 @@ ${data.github}
 
 ${data.email}
 
-### Tests\n
+
+### Test\n
 
 ${data.test}
 

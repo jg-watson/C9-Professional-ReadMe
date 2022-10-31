@@ -30,19 +30,13 @@ const questions = [
     },
     {
       type: 'input',
-      name: 'test',
-      message: 'What command should be run to run tests?',
-      default: 'node index.js',
-    },
-    {
-      type: 'input',
       name: 'usage',
       message: 'What knowledge does a user need to run this code?',
     },
     {
       type: 'input',
       name: 'contributing',
-      message: 'How can you contribute to this project?',
+      message: 'How you can contribute to this project?',
     },
     {
       type: 'input',
@@ -54,6 +48,12 @@ const questions = [
       name: 'email',
       message: 'What is your email address?',
     },
+    {
+      type: 'input',
+      name: 'test',
+      message: 'What command should be run to run tests?',
+      default: 'node index.js',
+    }
   ];
 
 // TODO: Create a function to write README file
