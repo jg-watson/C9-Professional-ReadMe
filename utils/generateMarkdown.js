@@ -2,11 +2,8 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== 'None') {
-    return `![Github Shields](https://img.shields.io/badge/license-${license}-red.svg)`
-   } else {(license !== 'None'); {
-      return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)`
-    }};
-
+    return `![License](https://img.shields.io/badge/license-${license}-red.svg)`
+};
   return ''
 };
 
@@ -14,7 +11,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== 'None') {
-    return `![Github Shields](https://img.shields.io/badge/license-${license}-red.svg)`
+    return `![License](https://img.shields.io/badge/license-${license}-red.svg)`
   };
   return ''
 };
@@ -23,7 +20,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== 'None') {
-    return `![Github Shields](https://img.shields.io/badge/license-${license}-red.svg)`
+    return `![License](https://img.shields.io/badge/license-${license}-red.svg)`
   };
   return ''
 };

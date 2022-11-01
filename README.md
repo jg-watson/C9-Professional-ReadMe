@@ -1,10 +1,10 @@
-# Professional Readme ![Github Shields](https://img.shields.io/badge/license-APACHE 2.0-red.svg)
+# Professional Readme Generator ![License](https://img.shields.io/badge/license-MIT-red.svg)
 
 
   ## Description
 
 
-generate a readme using the command line 
+To create a readme using the command line and node package modules 
 
 ### Table of Contents
 
@@ -29,13 +29,13 @@ npm i
 ### Usage
 
 
-javascript and node modules
+Knowledge of javascript and node package modules
 
 
 ### License
 
 
-APACHE 2.0
+MIT
 
 
 ### Contributing
@@ -45,7 +45,7 @@ via a pull request or an email request
 
 jg-watson
 
-j.antoniogarcia1130@gamil.com
+j.antoniogarcia1130
 
 
 ### Test

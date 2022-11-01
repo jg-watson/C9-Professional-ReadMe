@@ -1,4 +1,4 @@
-// Imported required packages
+//Required packages
 const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
@@ -26,7 +26,6 @@ const questions = [
       type: 'input',
       name: 'installation',
       message: 'What command should be run to install dependencies?',
-      default: 'npm i',
     },
     {
       type: 'input',
@@ -52,7 +51,6 @@ const questions = [
       type: 'input',
       name: 'test',
       message: 'What command should be run to run tests?',
-      default: 'node index.js',
     }
   ];
 
@@ -64,7 +62,6 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((answers)=>{
-        
         writeToFile('README.md', generateMarkdown(answers));
     });
 }
